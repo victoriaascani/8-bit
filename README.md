@@ -28,8 +28,8 @@ Essentially, this means that any game console running on 8-bit has 256 possible 
 
     
 
-<img align="left" src="256grid.png" width="300">
-<img align="left" src="palettemario.png" width="300">
+<img align="left" src="256grid.png" width="310">
+<img align="left" src="palettemario.png" width="310">
 
 ## Let's imagine this as a grid:
 an 8-bit grid is 16 by 16 units.  
@@ -51,7 +51,7 @@ The PPU is split up into 4 'memory' units which could hold 256 units of info eac
     2. Name Tables - background graphics
     3. Palettes - colours
     4. OAM - foreground sprites (moving elements)
-We're now going to discuss 2,3 and 4.
+We're now going to discuss 2, 3 and 4.
 <br>
 
 
@@ -62,11 +62,14 @@ We're now going to discuss 2,3 and 4.
 
 as the processor was only 8-bit, it was only possible to store 256 'tile' designs. 
 
-<img align= "left" src= "backgroundtileset.png">
-<img align= "left" src= "spritetileset.png">
+<img align= "left" src= "backgroundtileset.png" width="300">
+<img align= "left" src= "spritetileset.png" width="300">
 
 ### TILE DESIGNS
-'Tiles' are ***8px by 8px*** blocks that make up the graphics of a game. Bringing back the grid from earlier, both the OAM and the Nametables only have 256 slots for information. 
+'Tiles' are ***8px by 8px*** blocks that make up the graphics of a game. Bringing back the grid from earlier, both the OAM and the Nametables only have 256 slots for info. This means that all imagery on all levels of the game can only be made up from a selection of 256 square designs - because of this you'll notice a lot of repeated designs within video games from the 70s as well as symmetrical character sprites.
+
+<img src
+
 
 ### PALETTES:
 The NES could only store 8 palettes at a time:
