@@ -85,4 +85,8 @@ The NES could only store 8 palettes at a time:
 
 and each palette could only contain 4 colours - one of which was compulsory ('transparency'). Each tile can only hold a maximum of 3 colours. 
 
-The background is made up of a single colour and still images. The foreground is where the moving image happens - each moving image is called a '***sprite***'.
+**Background** - made up of a single colour and still images.   
+**Foreground** - where the moving image happens - each moving image is called a '***sprite***'.
+
+As each tile can only contain 8 pixels, sprites are often made of multiple tiles and, to create sprites with multiple different colours, designers would often overlay sprites meaning less could be used for the characters surroundings.
+
