@@ -37,7 +37,9 @@ an 8-bit grid is 16 by 16 units.
 Each individual unit in this grid stores a single piece of information and when dealing with 8-bit video games (such as the first Mario Bros on Nintendo's first console - NES) this grid was used for the colour palette and for 'tile' design - which I'll cover in a bit (pun not intended). Only 256 colours, and 256 tile designs, could be used within the entire game.
 
 ## This is where things start to complicate a little..
+
 ### NES - Nintendo Entertainment System
+
 <img align="left" src="nes.jpeg">
 
 **The NES was an 8-bit video game console released in 1983**  
@@ -56,9 +58,11 @@ We're now going to discuss 2, 3 and 4.
 
 
 ### NES SCREEN LIMITATIONS
+
 - The NES screen was a 32 by 30 grid of '***tiles***'   
-- each tile is 8px by 8px   
+- each tile is 8px by 8px  
 - meaning the screen was a 256 by 240 pixel image.
+- only 64 tiles can be displayed on the screen at any given time 
 
 as the processor was only 8-bit, it was only possible to store 256 'tile' designs. 
 
@@ -76,11 +80,9 @@ as the processor was only 8-bit, it was only possible to store 256 'tile' design
 ### PALETTES:
 The NES could only store 8 palettes at a time:
 <br>
-<img align="right" src="goomba.png" width="100">
 - 4 for the background
 - 4 for the foreground
-and each palette could only contain 4 colours - one of which was compulsory ('transparency')  
 
+and each palette could only contain 4 colours - one of which was compulsory ('transparency'). Each tile can only hold a maximum of 3 colours. 
 
 The background is made up of a single colour and still images. The foreground is where the moving image happens - each moving image is called a '***sprite***'.
-
