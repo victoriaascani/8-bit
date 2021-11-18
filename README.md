@@ -21,3 +21,5 @@ Let's imagine this as a grid:
 <img src="256grid.png" width="300">
 
 Each individual unit in this grid stores a single piece of information and when dealing with 8-bit video games (such as the first Mario Bros on Nintendo's first console - NES) this grid was used for the colour palette. Only 256 colours could be used.
+
+<img src="palettemario.png" width="300">
