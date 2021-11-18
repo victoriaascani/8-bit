@@ -37,6 +37,7 @@ an 8-bit grid is 16 by 16 units.
 Each individual unit in this grid stores a single piece of information and when dealing with 8-bit video games (such as the first Mario Bros on Nintendo's first console - NES) this grid was used for the colour palette. Only 256 colours could be used within the entire game.
 
 Relatively straight forward.
+<br>
 
 ## This is where things start to complicate a little..
 ### NES - Nintendo Entertainment System
