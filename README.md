@@ -73,3 +73,5 @@ The background is made up of a single colour and still images. The foreground is
 
 as the processor was only 8-bit, it was only possible to store 256 'tile' designs. 
 
+
+
