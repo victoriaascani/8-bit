@@ -90,3 +90,6 @@ and each palette could only contain 4 colours - one of which was compulsory ('tr
 
 As each tile can only contain 8 pixels, sprites are often made of multiple tiles and, to create sprites with multiple different colours, designers would often overlay sprites meaning less could be used for the characters surroundings.
 
+<img align= "left" src= "mariopalette.png" width="200">
+<img align= "left" src= "tile.png" width="90">
+
