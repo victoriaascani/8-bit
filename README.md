@@ -69,24 +69,15 @@ as the processor was only 8-bit, it was only possible to store 256 'tile' design
 'Tiles' are ***8px by 8px*** blocks that make up the graphics of a game. Bringing back the grid from earlier, both the OAM and the Nametables only have 256 slots for info. This means that all imagery on all levels of the game can only be made up from a selection of 256 square designs - because of this you'll notice a lot of repeated designs within video games from the 70s as well as symmetrical character sprites.
 
 <br>
-
+<img align="left" src="bush.png" width="227"> 
 <img align="right" src= "mariosetting.jpeg" width="690">
-
-<img align="left" src="bush.png" width="227">  
 <br>
-
 <br>
-
 <br>
-
 <br>
-
 <br>
-
 <br>
-
 <br>
-
 <br>
 
 <img align="left" src="cloud.png" width="227">  
@@ -99,16 +90,16 @@ as the processor was only 8-bit, it was only possible to store 256 'tile' design
 <br>  
 <br>  
 <br>  
-
-<br>
-<img align="right" src="goomba.png" width="100">
 <br>
 
 ### PALETTES:
 The NES could only store 8 palettes at a time:
+<br>
+<img align="right" src="goomba.png" width="100">
 - 4 for the background
 - 4 for the foreground
 and each palette could only contain 4 colours - one of which was compulsory ('transparency')  
+
 
 The background is made up of a single colour and still images. The foreground is where the moving image happens - each moving image is called a '***sprite***'.
 
