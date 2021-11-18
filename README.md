@@ -54,8 +54,18 @@ The PPU is split up into 4 'memory' units:
     3. Palettes - colours
     4. OAM - foreground sprites (moving elements)
 
-I am only going to cover 2, 3 and 4. 
+I am only going to cover 2, 3 and 4.
 
+<br>
+<br>
+
+
+
+### PALETTES:
+The NES could only store 8 palettes at a time:
+- 4 for the background
+- 4 for the foreground
+and each palette could only contain 4 colours - one of which was compulsory ('transparency')
 
 
 
