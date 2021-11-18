@@ -70,6 +70,10 @@ as the processor was only 8-bit, it was only possible to store 256 'tile' design
 
 <br>
 <img align="left" src="bush.png" width="227"> 
+<br>
+<br>
+<img align="left" src="cloudd.png" width="227">  
+<br>
 <img align="right" src= "mariosetting.jpeg" width="690">
 <br>
 <br>
@@ -77,10 +81,6 @@ as the processor was only 8-bit, it was only possible to store 256 'tile' design
 <br>
 <br>
 <br>
-<br>
-<br>
-
-<img align="left" src="cloud.png" width="227">  
 <br>   
 <br>   
 <br>  
