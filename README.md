@@ -1,7 +1,10 @@
 # UNDERSTANDING 8-BIT GRAPHICS :)
 
 To start, let's understand what is meant when talking about 8-bit graphics.  
+
 When video game consoles were first created in the 70s, the processors were naturally not as advanced as the processors used nowadays. Any new computer these days runs on a 64-bit processing system. In the 80s, the first computer to run on a 32-bit processor was released however, due to their smaller size, game consoles were limited to 8-bit.
+
+The term '8-bit' is often misused but what it means in this case is that the memory capacity of these processors was VERY low - hence the low quality in graphics and pixelated look all video games had at that time.
 <br>
 
 
@@ -37,6 +40,21 @@ Relatively straight forward.
 
 ## This is where things start to complicate a little..
 ### NES - Nintendo Entertainment System
+<img align="left" src="nes.jpeg">
+
+**8-bit video game console released in 1983**  
+this is a lego model of it but you get the idea :)
+
+The console was made up of 2 ***8-bit*** processors. The PPU (picture processing unit) worked alongside the CPU (central processing unit) as a co-processor which performs a fixed set of graphics operations.
+
+The PPU is split up into 4 'memory' units:
+
+    1. Pattern Tables - raw image data
+    2. Name Tables - background graphics
+    3. Palettes - colours
+    4. OAM - foreground sprites (moving elements)
+
+I am only going to cover 2, 3 and 4. 
 
 
 
