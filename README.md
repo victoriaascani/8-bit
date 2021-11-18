@@ -52,19 +52,8 @@ The PPU is split up into 4 'memory' units which could hold 256 units of info eac
     3. Palettes - colours
     4. OAM - foreground sprites (moving elements)
 We're now going to discuss 2,3 and 4.
-
-<br>
 <br>
 
-
-
-### PALETTES:
-The NES could only store 8 palettes at a time:
-- 4 for the background
-- 4 for the foreground
-and each palette could only contain 4 colours - one of which was compulsory ('transparency')  
-
-The background is made up of a single colour and still images. The foreground is where the moving image happens - each moving image is called a '***sprite***'.
 
 ### NES SCREEN LIMITATIONS
 - The NES screen was a 32 by 30 grid of '***tiles***'   
@@ -73,5 +62,17 @@ The background is made up of a single colour and still images. The foreground is
 
 as the processor was only 8-bit, it was only possible to store 256 'tile' designs. 
 
+<img align= "left" src= "backgroundtileset.png">
+<img align= "left" src= "spritetileset.png">
 
+### TILE DESIGNS
+'Tiles' are ***8px by 8px*** blocks that make up the graphics of a game. Bringing back the grid from earlier, both the OAM and the Nametables only have 256 slots for information. 
+
+### PALETTES:
+The NES could only store 8 palettes at a time:
+- 4 for the background
+- 4 for the foreground
+and each palette could only contain 4 colours - one of which was compulsory ('transparency')  
+
+The background is made up of a single colour and still images. The foreground is where the moving image happens - each moving image is called a '***sprite***'.
 
