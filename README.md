@@ -105,5 +105,6 @@ As each tile can only contain 8 pixels, sprites are often made of multiple tiles
     3. Each layer is made up of max. 4 palettes (so 12 colours)
     4. Max. of 12 colours on the sprite layer.
     5. Each block (4 tiles) can only use a single palette.
-    6. The entire design of the video game (EVERY SINGLE ELEMENT) had to fit within 256 units of information.
+    6. The entire design of the video game (EVERY SINGLE ELEMENT) had to fit within 256 
+       units of information.
 
