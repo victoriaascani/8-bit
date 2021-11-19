@@ -55,6 +55,7 @@ The PPU is split up into 4 'memory' units which could hold 256 units of info eac
     4. OAM - foreground sprites (moving elements)
 We're now going to discuss 2, 3 and 4.
 <br>
+<br>
 
 
 ### NES SCREEN LIMITATIONS
