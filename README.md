@@ -96,12 +96,13 @@ As each tile can only contain 8 pixels, sprites are often made of multiple tiles
 <img align= "left" src= "mariopalette.png" width="200">
 <img align= "left" src= "tile.png" width="90">
 
-SUMMARY:
+## SUMMARY:
 8-bit often refers to the amount of memory that a processor has. 8-bit processors could only store **256** units of information. This meant designers had to work around an insane amount of limitations:
-- Games were split into 2 layers only (still background and moving sprites)
-- only 256 tiles could be on the screen at any given time.
-- each layer is made up of max. 4 palettes (so 12 colours)
-- max. of 12 colours on the sprite layer.
-- each block (4 tiles) can only use a single palette.
-- the entire design of the video game (EVERY SINGLE ELEMENT) had to fit within 256 units of information.
+
+    1. Games were split into 2 layers only (still background and moving sprites)
+    2. Only 256 tiles could be on the screen at any given time.
+    3. Each layer is made up of max. 4 palettes (so 12 colours)
+    4. Max. of 12 colours on the sprite layer.
+    5. Each block (4 tiles) can only use a single palette.
+    6. The entire design of the video game (EVERY SINGLE ELEMENT) had to fit within 256 units of information.
 
